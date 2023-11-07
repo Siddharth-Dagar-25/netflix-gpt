@@ -16,6 +16,17 @@
 - Implemented SignOut
 - Update Profile API Call
 - Fetch Movies from TMDB 
+- BugFix: Redirect/ Browse to Login Page and vice-versa
+- Unsubscribe to onAuthStateChanged callback
+- Take data from TMDB Movies API
+- Custom Hook for now Playing Movies
+- Create movieSlice
+- Update Store with movies Data
+- Planning for MainContainer and SecondaryContainer
+- Fetch Data for Trailer Video
+- Update Store with trailer video
+- Embadded the Youtube Video and make it autoplay and mute
+- Tailwind classes to make MainContainer to look good
 - 
 
 
