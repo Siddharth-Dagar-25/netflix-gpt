@@ -43,7 +43,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name.current.value,
-              photoURL: USER_AVATAR,
+            photoURL: USER_AVATAR,
           })
             .then(() => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -87,18 +87,18 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute ">
+      <div className="absolute inset-0">
         <img
-          className="h-screen w-screen"
+          className="h-screen w-screen object-cover"
           src={BG_URL}
           alt="background"
         />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="absolute w-3/12 my-36 mx-auto right-0 left-0  p-12 bg-black text-white rounded-lg bg-opacity-80"
+        className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/4 p-4 md:p-12 mt-28 w-11/12 md:w-1/3 lg:w-1/4 bg-black text-white rounded-lg bg-opacity-80"
       >
-        <h1 className="font-bold text-3xl py-4">
+        <h1 className="font-bold text-xl md:text-3xl py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}
         </h1>
 
@@ -128,20 +128,19 @@ const Login = () => {
         </p>
 
         <button
-          className="p-4 my-6 bg-red-700 w-full rounded-lg font-semibold "
+          className="p-4 my-6 bg-red-700 w-full rounded-lg font-semibold"
           onClick={handleButtonClick}
         >
           {isSignInForm ? "Sign In" : "Sign Up"}
         </button>
 
         <div className="flex items-center justify-evenly">
-          <p>{isSignInForm ? "New to Netflix ?" : "Already Registered ?"} </p>
+          <p>{isSignInForm ? "New to Netflix?" : "Already Registered?"}</p>
           <p
-            className="py-4 cursor-pointer hover:underline "
+            className="py-4 cursor-pointer hover:underline"
             onClick={toggleSignInForm}
           >
-            {" "}
-            {isSignInForm ? "Sign up now" : "Sign In"}{" "}
+            {isSignInForm ? "Sign up now" : "Sign In"}
           </p>
         </div>
       </form>
