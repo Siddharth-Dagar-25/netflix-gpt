@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import Header from "./Header";
-import backgroundImage from "../utils/images/netflix-background.jpeg";
 import { checkValidData } from "../utils/validate";
 import {
   createUserWithEmailAndPassword,
@@ -10,7 +9,7 @@ import {
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
-import usericon from "../utils/images/userlogo.png";
+import { BG_URL, USER_AVATAR } from "../utils/constants.js";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -44,7 +43,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: name.current.value,
-              photoURL: usericon,
+              photoURL: USER_AVATAR,
           })
             .then(() => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
@@ -91,7 +90,7 @@ const Login = () => {
       <div className="absolute ">
         <img
           className="h-screen w-screen"
-          src={backgroundImage}
+          src={BG_URL}
           alt="background"
         />
       </div>
