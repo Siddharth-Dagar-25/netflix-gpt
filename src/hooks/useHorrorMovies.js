@@ -21,7 +21,7 @@ const useHorrorMovies = () => {
   };
 
   useEffect(() => {
-    !HorrorMovies && getHorrorMovies();
+    !HorrorMovies && getHorrorMovies();// eslint-disable-next-line 
   }, []);
 };
 

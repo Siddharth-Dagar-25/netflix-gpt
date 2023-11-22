@@ -74,7 +74,7 @@ const Login = () => {
         password.current.value
       )
         .then((userCredential) => {
-          const user = userCredential.user;
+          const user = userCredential.user; //eslint-disable-line
         })
         .catch((error) => {
           const errorCode = error.code; //eslint-disable-line

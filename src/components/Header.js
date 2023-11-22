@@ -44,7 +44,7 @@ const Header = () => {
 
     // Unsiubscribe when component unmounts
     return () => unsubscribe();
-  }, []);
+  }, []); //eslint-disable-line
 
   const handleGptSearchClick = () => {
     // Toggle GPT Search

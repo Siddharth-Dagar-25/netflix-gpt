@@ -19,7 +19,7 @@ const useNowPlayingMovies = () => {
   };
 
   useEffect(() => {
-    !NowPlayingMovies && getNowPlayingMovies();
+    !NowPlayingMovies && getNowPlayingMovies();// eslint-disable-next-line 
   }, []);
 }
 
