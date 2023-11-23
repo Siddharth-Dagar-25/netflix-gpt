@@ -23,10 +23,10 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", name: "Spanish" },
 ];
 
-export const OPENAI_KEY = "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";
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
  
 //harsh
-//"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";
+//"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";
 
 //sid
 //"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"
