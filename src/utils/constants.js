@@ -23,10 +23,14 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "spanish", name: "Spanish" },
 ];
 
-export const OPENAI_KEY = "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";
- 
+export const OPENAI_KEY = process.env.REACT_APP_GPT_KEY;
+
+
 //harsh
 //"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";
 
 //sid
 //"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"
+
+//div
+//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
