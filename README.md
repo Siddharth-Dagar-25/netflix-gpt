@@ -40,13 +40,15 @@ Some snapshots of the project :
    git clone https://github.com/Siddharth-Dagar-25/netflix-gpt
 
 2. **Install dependencies for the app:**
-    ```npm install
+    ```bash
+    npm install
 
 3. **Set up environment variables:**
-    In the server directory, create a .env file and configure your environment variables (e.g., OpenAI API, TMDB API, PORT NO. etc.).
+    In the parent directory, create a .env file and configure your environment variables (e.g., OpenAI API, TMDB API, PORT NO. etc.).
 
 4. **Start the app:**
-    ```npm start
+    ```bash
+    npm start
 
 
 
