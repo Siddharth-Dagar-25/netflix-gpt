@@ -20,7 +20,7 @@ Some snapshots of the project :
 - TMDB APIs and OpenAI APIs
 - Movie Suggestions/Recomendations
 - GPT based Search bar
-- Set 3 different languages for the search bar
+- Set 3 different languages in the search bar
 
 ## Technologies
 - **Frontend**: React (created with create-react-app), Redux
