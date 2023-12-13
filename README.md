@@ -49,6 +49,3 @@ Some snapshots of the project :
 4. **Start the app:**
     ```bash
     npm start
-
-
-
