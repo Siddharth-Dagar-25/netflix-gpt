@@ -27,7 +27,7 @@ export const OPENAI_KEY = process.env.REACT_APP_GPT_KEY;
 
 
 //harsh
-//"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";
+//"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";
 
 //sid
 //"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"
