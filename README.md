@@ -9,9 +9,9 @@ It is an AI-driven platform that enhances the Netflix experience. It leverages O
 ## ScreenShots
 Some snapshots of the project : 
 <img width="1436" alt="Screenshot 2023-12-13 at 7 28 28 AM" src="https://github.com/Siddharth-Dagar-25/netflix-gpt/assets/97306013/3fd664ce-1988-4369-8ba1-7d7b67e2d1fa">
+<img width="1436" alt="Screenshot 2023-12-13 at 7 26 54 AM" src="https://github.com/Siddharth-Dagar-25/netflix-gpt/assets/97306013/1ebbe547-5928-4752-8d91-47653fdc0b77">
 <img width="1422" alt="Screenshot 2023-12-13 at 7 27 54 AM" src="https://github.com/Siddharth-Dagar-25/netflix-gpt/assets/97306013/3e5cde76-8edd-4702-8312-6de9451dd8be">
 <img width="1433" alt="Screenshot 2023-12-13 at 7 27 14 AM" src="https://github.com/Siddharth-Dagar-25/netflix-gpt/assets/97306013/e8222015-52f4-4cb9-a87c-44dd19f2b742">
-<img width="1436" alt="Screenshot 2023-12-13 at 7 26 54 AM" src="https://github.com/Siddharth-Dagar-25/netflix-gpt/assets/97306013/1ebbe547-5928-4752-8d91-47653fdc0b77">
 
 ## Features
 - User authentication and authorization
